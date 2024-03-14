@@ -42,9 +42,10 @@ const Login = () => {
   return (
     <div className="loginform-container">
       <div>
-        <h1>login credentials</h1>
+        <h1>login credentials\n All are case-sensitive</h1>
         <p>username : kishore</p>
         <p>password : kishore@2024</p>
+        
       </div>
       <h1>Login form</h1>
       <div className="form-conatainer">
