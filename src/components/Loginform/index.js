@@ -26,7 +26,7 @@ const Login = () => {
     if (username === "kishore" && password === "kishore@2024") {
       setUsernameError("");
       setPasswordError("");
-      history("/", { replace: true });
+      history("/home", { replace: true });
       console.log("Login successful");
     } else if (username !== "kishore") {
       setUsernameError("Enter valid username");
