@@ -22,7 +22,7 @@ const Home = () => {
   };
 
   const onClickLogout = () => {
-    Navigate("/jokeslogin-app/login");
+    Navigate("/jokeslogin-app");
   };
 
   const Fetchjoke = () => {
